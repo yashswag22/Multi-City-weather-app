@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>weatherlistApp</title>
+</head>
+<body>
+    <div id="citycontainer">
+        <div id="row">
+            <input type="text" id="cityname" placeholder="Enter City Name" ></input>
+            <button id="addbtn" onclick="addCity()"> Add </button>
+        </div>
+        <div id="weatherlist">
+             <!-- <li><span>Kolkata temp = 30 c </span><button class="delete"> Delete </button></li>
+            <li> Patna temp = 31c</li>  -->
+            <!-- <li> <h2 id="location"></h2>
+                <p id="temperature"></p>
+                <p id="description"></p>
+            </li> -->
+         <div class="card">
+            <div class="weather">
+                <img src="images/rain.png" class="weather-icon">
+                <h1 class="temp">22°C</h1>
+                <h2 class="city"> new york </h2>
+                <div class="details">
+                     <div class="col">
+                        <img src="images/humidity.png">
+                        <div>
+                            <p class="humidity"> 50%</p>
+                            <p> humidity </p>
+                        </div>
+                     </div>
+                     <div class="col">
+                        <img src="images/wind.png">
+                        <div id="wind">
+                            <p class="wind"> 50 km/h</p>
+                            <p> wind speed </p>
+                        </div>
+                     </div>
+                </div>
+                
+            </div>
+         </div>
+        </div>
+    </div>
+    <script src="script.js" ></script>
+</body>
+</html>
