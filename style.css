@@ -11,6 +11,24 @@ body{
     color: wheat;
     /* background: linear-gradient(135deg, #153677, #4e085f); */
 }
+#ad-container {
+  position: sticky;
+  top: 0;
+  margin: 20px auto;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid #007BFF;
+  border-radius: 5px;
+  background-color: yellow;
+  height: 200px;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#ad-container script {
+  display: block;
+}
 #addbtn{
     border: none;
     outline: none;
