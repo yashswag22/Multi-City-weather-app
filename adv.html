@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page with Advertisement</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .content {
+            padding: 20px;
+            background-color: white;
+        }
+        .advertisement {
+            padding: 20px;
+            background-color: #ffeb3b;
+            margin-top: 20px;
+            text-align: center;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <h1>Welcome to My Web Page</h1>
+        <p>This is a simple webpage with a separate section for advertisements.</p>
+    </div>
+
+    <div class="advertisement">
+        <h2>Advertisement</h2>
+        <p>This is where your advertisement will go.</p>
+        <!-- Example of PropellerAds ad code (replace with your actual code) -->
+        <script type="text/javascript">
+            (function() {
+                var ads = document.createElement('script');
+                ads.src = 'https://ad.propellerads.com/display.js';
+                document.body.appendChild(ads);
+            })();
+        </script>
+    </div>
+
+</body>
+</html>
